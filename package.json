@@ -1,0 +1,16 @@
+{
+  "name": "aether-awakening-shmup-rogue",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}

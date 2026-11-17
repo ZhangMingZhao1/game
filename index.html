@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#05060d" />
+    <title>苍穹觉醒：雷霆肉鸽 | Aether Awakening: Shmup Rogue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Chakra+Petch:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="menu">
+    <canvas id="game"></canvas>
+    <div id="side-left" class="side"></div>
+    <div id="side-right" class="side"></div>
+    <div id="cutin" hidden></div>
+    <div id="ui" class="overlay"></div>
+    <div id="tooltip"></div>
+    <div id="touch">
+      <button id="pauseBtn" type="button" aria-label="暂停">II</button>
+      <button id="transformBtn" type="button" aria-label="切换机甲形态">
+        <span class="transform-label">变形</span>
+        <span class="transform-mode">READY</span>
+      </button>
+      <button id="ultBtn" type="button" aria-label="觉醒大招">
+        <span class="ult-ring"></span>
+        <span class="ult-label">觉</span>
+        <span class="ult-pct">0%</span>
+      </button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
